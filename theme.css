@@ -1,0 +1,408 @@
+/*
+ * Monokai Brackets
+ *
+ *
+ * Color Scheme
+ * Color Scheme(Advanced Setting)
+ * User Interface
+ * User Interface(Advanced Setting)
+ * Extensions
+ *
+ */
+
+/*
+================================================================
+ Color Scheme
+================================================================
+*/
+
+/*
+ * JS [var], [if], [else if]
+ */
+.cm-keyword {
+    color: #e73876;
+    font-style: italic;
+}
+
+/*
+ * CSS position: [absolute];
+ * JS [null], [true]
+ */
+.cm-atom {
+    color: #51adbf;
+}
+
+/*
+ * CSS font-size: [14px];
+ * JS var i = [0];
+ */
+.cm-number {
+    color: #8481ff;
+}
+
+/*
+ * CSS [@charset], [@keyframes]
+ * JS var [VariableName] =...
+ */
+.cm-def {
+    color: #efefe1;
+}
+
+/*
+ * CSS font-family: [Arial];, @keyframes [AnimationName]
+ * JS [addClass], [getWindowHeight]
+ */
+.cm-variable {
+    color: #51adbf;
+}
+
+/*
+ * JS variable-2
+ */
+.cm-variable-2 {
+    color: #a8e8f5;
+}
+
+/*
+ * CSS :[hover], ::[before]
+ */
+.cm-variable-3 {
+    color: #fff;
+}
+
+/*
+ * CSS [position]: absolute;
+ * JS [easing]: 'easeInOutCubic',
+ */
+.cm-property {
+    color: #66d6ed;
+}
+
+/*
+ * JS [=], [+]
+ */
+.cm-operator {
+    color: #e73876;
+}
+
+/*
+ * HTML [<!-- comment -->]
+ * CSS [comment]
+ * JS [comment]
+ */
+.cm-comment {
+    color: #74705d;
+}
+
+/*
+ * HTML <div class=["ClassName"]>
+ * JS ['use strict'], ['wrapper']
+ */
+.cm-string {
+    color: #d8cd6e;
+}
+
+/*
+ * JS if( [/youtube\.com\/embed\//]...
+ */
+.cm-string-2 {
+    color: #fd9622;
+}
+
+/*
+ * HTML [<!DOCTYPE html>]
+ * CSS [-webkit-], [-moz-]
+ */
+.cm-meta {
+    color: #51adbf;
+    font-style: italic;
+}
+
+/*
+ * CSS [.class-name] {property: value;}
+ */
+.cm-qualifier {
+    color: #a3d933;
+}
+
+/*
+ * CSS [#ID-name] {property: value;}
+ */
+.cm-builtin {
+    color: #82b021;
+    font-style: italic;
+}
+
+/*
+ * unknown...
+ */
+.cm-bracket {
+    color: #efefe1;
+}
+
+/*
+ * HTML [<header>], [</div>]
+ */
+.cm-tag {
+    color: #e73876;
+}
+
+/*
+ * HTML <div [class]="container">
+ */
+.cm-attribute {
+    color: #a3d933;
+}
+
+/*
+ *Code of error part
+ */
+.cm-error {
+    background: #e73876;
+    color: #efefe1 !important;
+}
+
+/*
+------------------------------------------------
+ Color Scheme(Advanced Setting)
+------------------------------------------------
+*/
+
+/*
+ * These are unknown...
+ */
+
+.cm-header {
+    color: #d85896;
+}
+
+.cm-quote {
+    color: #6c9ef8;
+}
+
+.cm-hr {
+    color: #efefe1;
+}
+
+.cm-link {
+    color: #b77fdb;
+    text-decoration: none;
+}
+
+.cm-rangeinfo {
+    color: #6c71c4;
+}
+
+.cm-minus {
+    color: #dc322f;
+}
+
+.cm-plus {
+    color: #85a300;
+}
+
+/*
+================================================================
+ User Interface
+================================================================
+*/
+
+/*
+ * Brackets(editor area) basic setting
+ * HTML <div class[=]"ClassName">, <p>[lorem ipsum]</p>
+ * CSS [(], [)], [{], [}], [:], [;]
+ * JS [(], [)], [{], [}], [,], [;]
+ */
+.CodeMirror-scroll {
+    background-color: #272822;
+    color: #efefe1;
+}
+
+/*
+ * Row number area background color
+ */
+.CodeMirror-gutters {
+    background-color: #2c2d29;
+    border-right: none;
+}
+
+/*
+ * Row number area text color
+ */
+.CodeMirror-linenumber {
+    color: #878885;
+}
+
+/*
+ * Code folding mark
+ */
+.CodeMirror-foldgutter-open:after {
+    color: #51514f;
+}
+
+/*
+ * Code folding mark(After clicking)
+ */
+.CodeMirror-foldgutter-folded:after {
+    color: #efefe1;
+}
+
+/*
+ *Folding part colors
+ */
+.CodeMirror-foldmarker {
+    background-color: #333;
+    border-color: #efefe1;
+    color: #efefe1;
+    padding: 0 10px;
+}
+
+/*
+ * Selection highlight color(not Active tab)
+ */
+.CodeMirror .CodeMirror-selected {
+    background: #2b2c28;
+}
+
+/*
+ * Selection highlight color(Active tab)
+ */
+.CodeMirror-focused .CodeMirror-selected {
+    background: #383830;
+}
+
+/*
+ * Cursor(character input)
+ */
+.CodeMirror-cursor {
+    border-left: 2px solid #fff !important;
+}
+
+/*
+ * HTML Selection highlight color(when double click)
+ */
+.CodeMirror-matchingtag {
+    /* Ensure visibility against gray inline editor background */
+    background-color: #3a392f;
+}
+
+/*
+ * CSS Selection highlight color(select braces)
+ */
+.CodeMirror-matchingbracket {
+    /* Ensure visibility against gray inline editor background */
+    border-bottom: 2px solid #f6a644;
+    background-color: transparent;
+    color: #efefe1 !important;
+}
+
+/*
+------------------------------------------------
+ User Interface(Advanced Setting)
+------------------------------------------------
+*/
+
+/*
+ * Brackets editor area background color(when editor area is empty)
+ */
+.image-view,
+.not-editor {
+    background-color: #1d1f21;
+}
+
+/*
+ * When Search,
+ */
+.CodeMirror-searching {
+    /* "color: #121212 !important;" is defined in the default style */
+    box-shadow: none;
+    background-color: #d3cd69;
+}
+
+.CodeMirror-searching.searching-current-match {
+    /* "color: #121212 !important;" is defined in the default style */
+    box-shadow: none;
+    background-color: #f6a644;
+}
+
+/*
+ * unknown...
+ */
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #fff;
+}
+
+/*
+ * Brackets activeline highlight color(when "style active line" is enable)
+ */
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #383934;
+}
+
+/*
+ * Brackets activeline highlight color(when "style active line" is enable)
+ */
+.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    /*box-shadow: inset 15px 0 0 0 #000;*/
+}
+
+/*
+ * Brackets activeline highlight color(when "style active line" is enable)
+ */
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    background: #383934;
+    color: #fff;
+}
+
+/*
+* Brackets activeline highlight color of inline widget(when "style active line" is enable)
+ */
+.CodeMirror-focused .CodeMirror-activeline .inline-widget .CodeMirror-gutter-elt {
+    background: #383934;
+    color: #fff;
+}
+
+/*
+ * unknown...
+ */
+.view-pane .image-view {
+    color: #ddd;
+}
+
+/*
+================================================================
+ Extensions
+================================================================
+*/
+
+/*
+ * If you use "Custom Work" extensions(https://github.com/DH3ALEJANDRO/custom-work-for-brackets),
+ * please disabled "useBlueishStyle” and enable the code below.
+ *
+ *
+ *.cw-dragged-index {
+ *    padding-left: 6px;
+ *    padding-right: 6px;
+ *    text-shadow: 0;
+ *    transition: background 0s;
+ *}
+ *
+ *.cw-dragged-index:not(.selected) {
+ *    background-color: #2d3033;
+ *}
+ *
+ *.cw-dragged-index:not(.selected):hover {
+ *    background-color: #26282a;
+ *}
+ *
+ *.cw-dragged-index a,
+ *.cw-dragged-index.cw-btns {
+ *    text-shadow: none;
+ *}
+ *
+ *.cw-dragged-index:not(.selected) a,
+ *.cw-dragged-index:not(.selected) .extension {
+ *    color: #a8a9a9;
+ *}
+ */
