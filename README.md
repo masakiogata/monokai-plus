@@ -8,6 +8,7 @@ Screenshots
 
 ### Summary
 ![HTML](screenshots/summary.png)
+Note:this image using some extensions([Brackets Icons](https://github.com/ivogabe/Brackets-Icons), [Color Highlighter](https://github.com/Taraflex/Brackets-Color-Highlighter), [Custom Work](https://github.com/DH3ALEJANDRO/custom-work-for-brackets), [Indent Guides](https://github.com/lkcampbell/brackets-indent-guides)).
 
 ### HTML
 ![HTML](screenshots/html.png)
