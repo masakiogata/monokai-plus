@@ -4,7 +4,7 @@
     "description": "This theme is a customized version of the Monokai color scheme from Sublime Text 3. The saturation of respective color optimized for IPS LCD and regular font weight.",
     "homepage": "https://github.com/masakiogata/monokai-plus",
     "version": "1.0.0",
-    "author": "Ogata,Masaki <ogtmski@gmail.com>",
+    "author": "Ogata,Masaki <ogtmski@gmail.com> (https://github.com/masakiogata/)",
     "license": "MIT",
     "theme": {
         "file": "theme.css",
