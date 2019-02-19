@@ -6,6 +6,9 @@ This theme is a customized version of the Monokai color scheme from [Sublime Tex
 Screenshots
 ---
 
+### Summary
+![HTML](screenshots/summary.png)
+
 ### HTML
 ![HTML](screenshots/html.png)
 
@@ -14,6 +17,9 @@ Screenshots
 
 ### JavaScript
 ![HTML](screenshots/js.png)
+
+### No "Custom Work"(Brackets Extention)
+![HTML](screenshots/noCustomWork.png)
 
 Installation
 ---
