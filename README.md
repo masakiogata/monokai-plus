@@ -18,8 +18,8 @@ Screenshots
 ### JavaScript
 ![HTML](screenshots/js.png)
 
-### No "Custom Work"(Brackets Extention)
-![HTML](screenshots/noCustomWork.png)
+### No "Custom Work" and "Brackets Icons"(Brackets Extention)
+![HTML](screenshots/noExtention.png)
 
 Installation
 ---
