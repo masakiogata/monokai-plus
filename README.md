@@ -29,4 +29,5 @@ This extension requires Brackets Release 1.0 or newer.
 License
 ---
 
-The MIT License. Read [LICENSE](LICENSE) for further information.
+The MIT License.
+Read [LICENSE](LICENSE) for further information.
