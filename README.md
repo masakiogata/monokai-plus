@@ -1,7 +1,7 @@
 Brackets Theme: Monokai+
 ===
 
-This theme is a customized version of the Monokai color scheme from [Sublime Text 3](http://sublimetext.com/). The saturation of respective color optimized for IPS LCD and regular font weight.
+This theme is a customized version of the Monokai color scheme from [Sublime Text](http://sublimetext.com/). The saturation of respective color optimized for IPS LCD and regular font weight.
 
 Screenshots
 ---
