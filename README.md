@@ -19,6 +19,9 @@ Note: this image using some extensions([Brackets Icons](https://github.com/ivoga
 ### JavaScript
 ![HTML](screenshots/js.png)
 
+### Easy to Customize
+![HTML](screenshots/theme.png)
+
 Installation
 ---
 
