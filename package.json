@@ -8,7 +8,8 @@
     "license": "MIT",
     "theme": {
         "file": "theme.css",
-        "dark": true
+        "dark": true,
+        "addModeClass": true
     },
     "keywords": ["theme, monokai, dark, sublime text"]
 }
