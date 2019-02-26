@@ -1,5 +1,5 @@
 /*
- * Monokai Brackets
+ * theme name: Monokai+
  *
  *
  * Color Scheme
@@ -134,17 +134,18 @@
 }
 
 /*
- * unknown...
- */
-.cm-bracket {
-    color: #efefe1;
-}
-
-/*
  * HTML [<header>], [</div>]
  */
 .cm-tag {
     color: #e73876;
+}
+
+/*
+ * HTML [<]header[>], [<]/div[>]
+ */
+.cm-bracket {
+    /*if you wants to change the brackets color. */
+    /*color: #efefe1;*/
 }
 
 /*
@@ -279,7 +280,7 @@
 }
 
 /*
- * HTML Selection highlight color(when double click)
+ * Selection highlight color(when double click)
  */
 .CodeMirror-matchingtag {
     /* Ensure visibility against gray inline editor background */
@@ -311,7 +312,7 @@
 }
 
 /*
- * When Search,
+ * matches for the "Find" command(all matches)
  */
 .CodeMirror-searching {
     /* "color: #121212 !important;" is defined in the default style */
@@ -319,6 +320,9 @@
     background-color: #d3cd69;
 }
 
+/*
+ * matches for the "Find" command(current match)
+ */
 .CodeMirror-searching.searching-current-match {
     /* "color: #121212 !important;" is defined in the default style */
     box-shadow: none;
@@ -364,6 +368,17 @@
 }
 
 /*
+ * color of inline widget area(Ctrl+E On the classes)
+ */
+.inline-widget .inline-text-editor {
+    background: #24241f;
+}
+
+.inline-widget .CodeMirror-linenumbers {
+    background: #24241f;
+}
+
+/*
  * unknown...
  */
 .view-pane .image-view {
@@ -380,29 +395,31 @@
  * If you use "Custom Work" extensions(https://github.com/DH3ALEJANDRO/custom-work-for-brackets),
  * please disabled "useBlueishStyle” and enable the code below.
  *
- *
- *.cw-dragged-index {
- *    padding-left: 6px;
- *    padding-right: 6px;
- *    text-shadow: 0;
- *    transition: background 0s;
- *}
- *
- *.cw-dragged-index:not(.selected) {
- *    background-color: #2d3033;
- *}
- *
- *.cw-dragged-index:not(.selected):hover {
- *    background-color: #26282a;
- *}
- *
- *.cw-dragged-index a,
- *.cw-dragged-index.cw-btns {
- *    text-shadow: none;
- *}
- *
- *.cw-dragged-index:not(.selected) a,
- *.cw-dragged-index:not(.selected) .extension {
- *    color: #a8a9a9;
- *}
  */
+
+/*
+.cw-dragged-index {
+    padding-left: 6px;
+    padding-right: 6px;
+    text-shadow: 0;
+    transition: background 0s;
+}
+
+.cw-dragged-index:not(.selected) {
+    background-color: #2d3033;
+}
+
+.cw-dragged-index:not(.selected):hover {
+    background-color: #26282a;
+}
+
+.cw-dragged-index a,
+.cw-dragged-index.cw-btns {
+    text-shadow: none;
+}
+
+.cw-dragged-index:not(.selected) a,
+.cw-dragged-index:not(.selected) .extension {
+    color: #a8a9a9;
+}
+*/
