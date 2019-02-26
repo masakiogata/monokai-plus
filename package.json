@@ -1,15 +1,14 @@
 {
-    "name": "Ogata,Masaki.monokai-plus-theme",
     "title": "Monokai+",
+    "name": "monokai-plus-theme",
     "description": "This theme is a customized version of the Monokai color scheme from Sublime Text 3. The saturation of respective color optimized for IPS LCD and regular font weight.",
-    "homepage": "https://github.com/masakiogata/monokai-plus",
     "version": "1.0.0",
-    "author": "Ogata,Masaki <ogtmski@gmail.com> (https://github.com/masakiogata/)",
+    "author": "Ogata,Masaki <ogatamasaki.jp@gmail.com> (https://github.com/masakiogata/)",
+    "homepage": "https://github.com/masakiogata/monokai-plus/",
     "license": "MIT",
     "theme": {
         "file": "theme.css",
-        "dark": true,
-        "addModeClass": true
+        "dark": true
     },
-    "keywords": ["theme, monokai, dark, sublime text"]
+    "keywords": ["theme, monokai, dark, sublime"]
 }
